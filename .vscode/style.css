@@ -153,21 +153,21 @@ footer {
   text-align: center;
   font-size: 14px;
 }
- /* animation */
- @keyframes slider-in {
+/* animation */
+@keyframes slider-in {
   from {
     left: 0;
   }
   to {
-    left: 50%
-  }
- }
-
- @keyframes slider-back {
-   from {
     left: 50%;
-   }
-   to {
+  }
+}
+
+@keyframes slider-back {
+  from {
+    left: 50%;
+  }
+  to {
     left: 0;
-   }
- }
+  }
+}
